@@ -4,5 +4,5 @@ lazy val root = (project in file(".")).
       organization := "io.ryuichi",
       scalaVersion := "2.12.4"
     )),
-    name := $name$
+    name := "$name$"
   )
