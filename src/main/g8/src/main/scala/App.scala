@@ -1,5 +1,5 @@
 package example
 
-object Main {
+object App {
   def main = ???
 }
