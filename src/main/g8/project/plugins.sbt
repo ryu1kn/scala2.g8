@@ -1,2 +1,2 @@
-addSbtPlugin(maven(com.geirsson, sbt-scalafmt))
-addSbtPlugin(maven(org.scalastyle, scalastyle-sbt-plugin_2.12))
+addSbtPlugin(\$scalafmt_version\$)
+addSbtPlugin(\$scalastyle_version\$)

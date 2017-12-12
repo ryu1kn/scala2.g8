@@ -1,5 +1,5 @@
 import sbt._
 
 object Dependencies {
-  lazy val scalaTest = maven(org.scalatest, scalatest_2.12, stable)
+  lazy val scalaTest = \$scalatest_version\$
 }
