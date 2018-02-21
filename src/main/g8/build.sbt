@@ -1,8 +1,8 @@
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      organization := "io.ryuichi",
+      organization := "$package$",
       scalaVersion := "2.12.4"
     )),
-    name := "$name$"
+    name := "$name;format="normalize"$"
   )

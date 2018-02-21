@@ -1,4 +1,4 @@
-package example
+package $package$
 
 object App {
   def main = ???
