@@ -1,8 +1,20 @@
 
+# My Scala Template
+
 A [Giter8][g8] template for my projects.
 
-Template license
-----------------
+## Developing this template
+
+Have this repository checkout at `./my-scala.g8`. Generate a project from this template
+
+```bash
+$ g8 file://my-scala.g8 --name="My Scala Test"
+```
+
+Then open `./my-scala-test` directory and see if this is what you want.
+
+## Template license
+
 Written in 2017 by Ryuichi Inagaki <ryuichi.inagaki.24@googlemail.com>
 
 To the extent possible under law, the author(s) have dedicated all copyright and related
