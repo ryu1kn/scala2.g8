@@ -3,6 +3,12 @@
 
 A [Giter8][g8] template for my projects.
 
+## How to generate a scala project from this template
+
+```sh
+$ sbt new ryu1kn/my-scala.g8
+```
+
 ## Developing this template
 
 Have this repository checkout at `./my-scala.g8`. Generate a project from this template
