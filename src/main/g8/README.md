@@ -1,8 +1,6 @@
 
 # $name$
 
-$description$
-
 ## Test
 
 ```sh
