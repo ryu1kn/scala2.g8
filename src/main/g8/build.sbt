@@ -1,13 +1,12 @@
-import Dependencies._
 
 lazy val root = (project in file(".")).
   settings(
     name := "$name;format="normalize"$",
     inThisBuild(List(
       organization := "$package$",
-      scalaVersion := "2.12.4"
+      scalaVersion := "2.12.6"
     )),
     libraryDependencies ++= Seq(
-      scalaTest % Test
+      $scalatest_version$ % Test
     )
   )
