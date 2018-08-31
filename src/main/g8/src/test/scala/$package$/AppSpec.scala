@@ -2,10 +2,12 @@ package $package$
 
 import org.scalatest._
 
-class AppSpec extends FlatSpec with Matchers {
+class AppSpec extends WordSpec with Matchers {
 
-  it should "pass" in {
-    1 shouldEqual 1
+  "App" should {
+    "pass" in {
+      1 shouldEqual 1
+    }
   }
 
 }
