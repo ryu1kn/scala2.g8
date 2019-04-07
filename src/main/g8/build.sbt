@@ -4,7 +4,7 @@ lazy val root = (project in file(".")).
     name := "$name;format="normalize"$",
     inThisBuild(List(
       organization := "$package$",
-      scalaVersion := "2.12.6"
+      scalaVersion := "2.12.8"
     )),
     libraryDependencies ++= Seq(
       $scalatest_version$ % Test
