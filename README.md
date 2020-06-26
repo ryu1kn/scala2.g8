@@ -6,18 +6,18 @@ A [Giter8][g8] template for my projects.
 ## How to generate a scala project from this template
 
 ```sh
-$ sbt new ryu1kn/my-scala.g8
+$ sbt new ryu1kn/scala.g8
 ```
 
 ## Developing this template
 
-Have this repository checkout at `./my-scala.g8`. Generate a project from this template
+Have this repository checkout at `./scala.g8`. Generate a project from this template
 
 ```bash
-$ g8 file://my-scala.g8 --name="My Scala Test"
+$ g8 file://scala.g8 --name="My Scala Test"
 ```
 
-Then open `./my-scala-test` directory and see if this is what you want.
+Then open `./scala-test` directory and see if this is what you want.
 
 ## Template license
 
