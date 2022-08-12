@@ -1,8 +1,9 @@
 package $package$
 
-import org.scalatest._
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
-class ArbitrarySpec extends WordSpec with Matchers {
+class ArbitrarySpec extends AnyWordSpec with Matchers {
 
   "Arbitrary spec" should {
     "pass" in {
