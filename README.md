@@ -1,23 +1,23 @@
 
-# My Scala Template
+# My Scala 2 Template
 
 A [Giter8][g8] template for my projects.
 
-## How to generate a scala project from this template
+## How to generate a Scala 2 project from this template
 
 ```sh
-$ sbt new ryu1kn/scala.g8
+$ sbt new ryu1kn/scala2.g8
 ```
 
 ## Developing this template
 
-Have this repository checkout at `./scala.g8`. Generate a project from this template
+Have this repository checkout at `./scala2.g8`. Generate a project from this template
 
 ```bash
-$ g8 file://scala.g8 --name="My Scala Test"
+$ g8 file://scala2.g8 --name="My Scala 2 Test"
 ```
 
-Then open `./scala-test` directory and see if this is what you want.
+Then open `./my-scala-2-test` directory and see if this is what you want.
 
 ## Template license
 
